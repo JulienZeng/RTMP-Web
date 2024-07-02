@@ -12,6 +12,7 @@
     "@vueuse/core": "^10.11.0",
     "element-plus": "^2.7.5",
     "flv.js": "^1.6.2",
+    "vite-plugin-yaml2": "^1.1.5",
     "vue": "^3.4.21"
   },
   "devDependencies": {

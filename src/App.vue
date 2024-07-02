@@ -81,6 +81,7 @@ import FlvJs from "flv.js";
 import { ref } from "vue";
 import FormatDate from "./utils/FormatDate";
 import { useDark, useToggle } from "@vueuse/core";
+import cfg from "./config/config.yaml";
 
 const isDark = useDark();
 const toggleDark = useToggle(isDark);
@@ -89,12 +90,7 @@ const toggleDark = useToggle(isDark);
 const liveUrl = ref("");
 
 // 常用地址
-const usefulUrls = [
-  {
-    url: "exapmle.com/live/test.flv",
-    name: "exapmle.com/live/test.flv",
-  },
-];
+const usefulUrls = ref(cfg.liveUrl);
 
 // dialog
 const centerDialogVisible = ref(false);

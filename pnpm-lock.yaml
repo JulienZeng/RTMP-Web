@@ -17,6 +17,9 @@ importers:
       flv.js:
         specifier: ^1.6.2
         version: 1.6.2
+      vite-plugin-yaml2:
+        specifier: ^1.1.5
+        version: 1.1.5
       vue:
         specifier: ^3.4.21
         version: 3.4.27(typescript@5.4.5)
@@ -849,6 +852,9 @@ packages:
   unplugin@1.10.1:
     resolution: {integrity: sha512-d6Mhq8RJeGA8UfKCu54Um4lFA0eSaRa3XxdAJg8tIdxbu1ubW0hBCZUL7yI2uGyYCRndvbK8FLHzqy2XKfeMsg==}
     engines: {node: '>=14.0.0'}
+
+  vite-plugin-yaml2@1.1.5:
+    resolution: {integrity: sha512-98PPEBWmyS+t2KcvGXfvnX83+QRGedpyPkDwluUAzCyCquwJzYsUNqfNzJHDk2/52d8uoCmJTZJpnQMls7LNtw==}
 
   vite@5.2.13:
     resolution: {integrity: sha512-SSq1noJfY9pR3I1TUENL3rQYDQCFqgD+lM6fTRAM8Nv6Lsg5hDLaXkjETVeBt+7vZBCMoibD+6IWnT2mJ+Zb/A==}
@@ -1713,6 +1719,8 @@ snapshots:
       chokidar: 3.6.0
       webpack-sources: 3.2.3
       webpack-virtual-modules: 0.6.2
+
+  vite-plugin-yaml2@1.1.5: {}
 
   vite@5.2.13:
     dependencies:
