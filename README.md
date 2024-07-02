@@ -1,9 +1,34 @@
-# Vue 3 + TypeScript + Vite
+# RTMP-Web
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+一个简易的使用`flv.js`搭建的 flv 解析网页。
 
-## Recommended Setup
+## Usage
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+```bash
+# clone
+git clone https://github.com/JulienZeng/RTMP-Web.git
 
-- Use [vue-tsc](https://github.com/vuejs/language-tools/tree/master/packages/tsc) for performing the same type checking from the command line, or for generating d.ts files for SFCs.
+# install
+cd RTMP-Web
+# use what you like
+pnpm i
+# or npm i
+# or yarn i
+# ...
+
+# dev
+cp ./src/config/config-example.yaml ./src/config/config.yaml
+pnpm run dev
+
+# build
+cp ./src/config/config-example.yaml ./src/config/config.yaml # if you have this file, ignore this command.
+pnpm run build
+```
+
+- 使用前请将`src/config/config.yaml`是可配置的，为了方便你的使用，如有需要请前往修改。
+
+## 技术栈
+
+- Vue3
+- TypeScript
+- Element Plus
